@@ -20,4 +20,13 @@ func main() {
 		fmt.Println(value)
 	}
 
+
+	// You can chec when the channel has been closed this way:
+	// for {
+	// 	value, ok := <- channel
+	// 	if !ok {
+	// 		break
+	// 	}
+	// 	fmt.Println(value)
+	// }
 }
