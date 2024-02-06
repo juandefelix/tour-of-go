@@ -1,5 +1,15 @@
-package main
+epackage main
 
+/*
+STEPS FOLLOWED TO RUN THIS EXERCISE WITH REMOTE DEPENDENCIES:
+
+1. Initially this file was in the parent directory
+2. Created a folder exercise-equivalent-binary-tree. Change directory to it
+3. Initialize a go module: `go mod init example/exercixe-binary-tree`
+4. Fetch the remote libraries: `go mod tidy`
+5. Now you should be able to run the program: `go run exercse-equivalent-binary-trees.go`
+
+*/
 import ( 
   "golang.org/x/tour/tree"
   "fmt"
@@ -38,4 +48,3 @@ func main() {
   fmt.Println(areTheSame)
 }
 
-// Import local modules: https://stackoverflow.com/questions/35480623/how-to-import-local-packages-in-go
